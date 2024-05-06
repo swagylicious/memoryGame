@@ -31,7 +31,9 @@ body{
 
 .game{
     width: 450px;
-    height: ;
+    height: 450px;
+    display: flex;
+    
 }
 
 h2{
