@@ -30,8 +30,8 @@ body{
 }
 
 .game{
-    width: 450px;
-    height: 430px;
+    width: 430px;
+    height: 450px;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
