@@ -33,7 +33,9 @@ body{
     width: 450px;
     height: 450px;
     display: flex;
-    
+    flex-wrap: wrap;
+    gap: 1rem;
+    transform-style: preserve-3d;
 }
 
 h2{
