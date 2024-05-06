@@ -83,3 +83,7 @@ h2{
     transition: .5s;
     transform: rotateY(0deg);
 }
+
+.flip::after{
+    transform: rotateY(180deg);
+}
