@@ -14,8 +14,7 @@ for ( var i = 0; i < legends.length; i++){
     card.onclick = () => {
         card.classList.add('flip');
         setTimeout(() => {
-            
-            card.classList.remove('flip');
+            if
         }, 500);
     };
 
