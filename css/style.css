@@ -26,4 +26,5 @@ body{
     flex-direction: column;
     gap: 3rem;
     background-color: #c3afaf;
+    padding: 4rem 6rem;
 }
