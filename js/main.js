@@ -12,7 +12,7 @@ for ( var i = 0; i < legends.length; i++){
     card.innerHTML = shullfeLegends[i];
 
     card.onclick = () => {
-        this.classList.add('flip');
+        card.classList.add('flip');
     };
 
     document.querySelector('.game').appendChild(card);
