@@ -13,7 +13,7 @@ for ( var i = 0; i < legends.length; i++){
 
     card.onclick = () => {
         card.classList.add('flip');
-        setTimeout(() => {
+        setTimeout(funtion() => {
             if(document.querySelectorAll('.flip').length > 1){
                 
                 if(document.querySelectorAll('.flip')[0].innerHTML == document.querySelectorAll('.flip')[1].innerHTML){
@@ -30,7 +30,9 @@ for ( var i = 0; i < legends.length; i++){
                         alert('You Win!');
                     }
                 }else{
+                    document.querySelectorAll('.flip')[0].classList.remove('flip');    
                     
+                    document.querySelectorAll('.flip')[1].classList.remove('flip');
                 }
             }
         }, 500);
