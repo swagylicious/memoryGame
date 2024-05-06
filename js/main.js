@@ -11,7 +11,8 @@ for ( var i = 0; i < legends.length; i++){
     card.className = 'card';
     card.innerHTML = shullfeLegends[i];
 
-    // card.onclick = function(){
+    card.onclick = function(){
+        
     //     this.classList.add('flip');
     //     setTimeout(function(){
     //         if(document.querySelectorAll('.flip').length > 1){
