@@ -47,7 +47,7 @@ h2{
     letter-spacing: .3rem;
 }
 
-.reset:hover{
+.reset:focus{
     background-color: #2d1515;
     color: #f1f1f1;
 }
