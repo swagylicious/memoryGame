@@ -36,6 +36,6 @@ for ( var i = 0; i < legends.length; i++){
             }
         },500);
     }       
-    document.getElementById('.game').appendChild(card);
+    document.querySelector('.game').appendChild(card);
 }
 
