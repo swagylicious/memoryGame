@@ -31,7 +31,7 @@ body{
 
 .game{
     width: 450px;
-    height: 450px;
+    height: 430px;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
