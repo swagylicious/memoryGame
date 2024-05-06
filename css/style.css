@@ -65,6 +65,9 @@ h2{
 }
 
 .card{
+    position: relative;
+    width: 100px;
+    height: 100px;
     
 }
 
