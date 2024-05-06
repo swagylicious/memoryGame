@@ -77,7 +77,7 @@ h2{
     transform: rotateY(180deg);
 }
 
-.card.flip::after{
+.card.flip{
     transform: rotateY(0deg);
 }
 
