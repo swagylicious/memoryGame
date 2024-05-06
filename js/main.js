@@ -14,7 +14,7 @@ for ( var i = 0; i < legends.length; i++){
     card.onclick = function(){
         this.classList.add('flip');
         setTimeout(function(){
-          if(document.querySelectorAll('.flip').length === 2){
+          if(document.querySelectorAll('.flip').length < 2>){
             const [firstCard, secondCard] = document.querySelectorAll('.flip');
             if(firstCard.innerHTML !== secondCard.innerHTML){
                 firstCard.classList.remove('flip');
