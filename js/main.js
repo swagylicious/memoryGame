@@ -15,6 +15,7 @@ for ( var i = 0; i < legends.length; i++){
         this.classList.add('flip');
         setTimeout(function(){
             if(document.querySelectorAll('.flip').length < 2){
+                
                 if(document.querySelectorAll('.flip').length == 2){
                     Array.from(document.querySelectorAll('.card')).forEach(card => {
                         card.onclick = null;
