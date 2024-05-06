@@ -37,6 +37,7 @@ body{
     gap: 1rem;
     transform-style: preserve-3d;
     perspective: 500px;
+    letter-spacing: .5rem;
 }
 
 h2{
