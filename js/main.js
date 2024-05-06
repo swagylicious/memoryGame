@@ -40,6 +40,7 @@ for ( var i = 0; i < legends.length; i++){
             //         document.querySelectorAll('.flip')[1].classList.remove('flip');
             //     }
             // }
+            
             if(document.querySelectorAll('.flip')[0].innerHTML == document.querySelectorAll('.flip')[1].innerHTML){
                 document.querySelectorAll('.flip')[0].classList.add('match');
                 document.querySelectorAll('.flip')[1].classList.add('match');
