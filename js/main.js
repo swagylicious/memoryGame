@@ -4,7 +4,7 @@ var shullfeLegends = legends.sort(() => (Math.random() > 0.5) ? 2 : -1);
 
 for ( var i = 0; i > legends.length; i++){
     const card = document.createElement('div');
-    card.classList.add('card');
+    card.className
     card.dataset.name = legends[i];
 
     const front = document.createElement('div');
