@@ -1,1 +1,1 @@
-const legends = 
+const legends = [];
