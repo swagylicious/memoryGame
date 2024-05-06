@@ -15,7 +15,15 @@ for ( var i = 0; i < legends.length; i++){
         this.classList.add('flip');
         setTimeout(function(){
           if(document.querySelectorAll('.flip').length > 1){
-            
+            if(document.querySelectorAll('.flip')[0].innerHTML !== document.querySelectorAll('.flip')[1].innerHTML){
+                document.querySelectorAll('.flip').forEach(function(card){
+                    card.classList.remove('flip');
+                });
+            }else{
+                document.querySelectorAll('.flip').forEach(function(card){
+                    card.classList.add('found');
+                    card.onclick = null;
+                });
           }
         },500);
     }       
