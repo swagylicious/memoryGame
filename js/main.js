@@ -15,7 +15,7 @@ for ( var i = 0; i < legends.length; i++){
         card.classList.add('flip');
         setTimeout(() => {
             if(document.querySelectorAll('.flip').length > 1){
-                if(document.querySelectorAll('.flip')[0].innerHTML !== document.querySelectorAll('.flip')[1].innerHTML){
+                if(document.querySelectorAll('.flip')[0].innerHTML == document.querySelectorAll('.flip')[1].innerHTML){
                     document.querySelectorAll('.flip').forEach(card => {
                         card.classList.remove('flip');
                     });
