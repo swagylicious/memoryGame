@@ -29,6 +29,8 @@ for ( var i = 0; i < legends.length; i++){
                     if(document.querySelectorAll('.match').length == legends.length){
                         alert('You Win!');
                     }
+                }else{
+                    
                 }
             }
         }, 500);
