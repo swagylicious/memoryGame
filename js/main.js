@@ -38,6 +38,9 @@ for ( var i = 0; i < legends.length; i++){
                     
                     document.querySelectorAll('.flip')[1].classList.remove('flip');
                 }
+                Array.from(document.querySelectorAll('.card')).forEach(card => {
+                    card.onclick = arguments.callee;
+                });
             }
             
         },500);
