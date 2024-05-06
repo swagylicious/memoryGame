@@ -35,7 +35,7 @@ for ( var i = 0; i < legends.length; i++){
                     document.querySelectorAll('.flip')[1].classList.remove('flip');
                 }
             }
-        }, 500);
+        },500);
     };
 
     document.querySelector('.game').appendChild(card);
