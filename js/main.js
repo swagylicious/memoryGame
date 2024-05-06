@@ -30,7 +30,9 @@ for ( var i = 0; i < legends.length; i++){
                         alert('You Win!');
                     }
                 }else{
+                    document.querySelectorAll('.flip')[0].classList.remove('flip');    
                     
+                    document.querySelectorAll('.flip')[1].classList.remove('flip');
                 }
             }
         }, 500);
