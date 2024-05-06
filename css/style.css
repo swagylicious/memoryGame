@@ -91,6 +91,7 @@ h2{
     backface-visibility: hidden;
 }
 
-.flip::after{
+.flip::after,
+.match::after{
     transform: rotateY(180deg);
 }
