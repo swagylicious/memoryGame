@@ -25,7 +25,9 @@ for ( var i = 0; i < legends.length; i++){
                     
                     document.querySelectorAll('.flip')[1].classList.remove('flip');
 
-                    if
+                    if(document.querySelectorAll('.match').length == legends.length){
+                        alert('You Win!');
+                    }
                 }
             }
         }, 500);
