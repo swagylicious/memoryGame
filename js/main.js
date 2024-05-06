@@ -14,13 +14,8 @@ for ( var i = 0; i < legends.length; i++){
     card.onclick = function(){
         this.classList.add('flip');
         setTimeout(function(){
-            if(document.querySelectorAll('.flip').length < 2){
-
-                if(document.querySelectorAll('.flip').length == 2){
-                    Array.from(document.querySelectorAll('.card')).forEach(card => {
-                        card.onclick = null;
-                    });
-    
+            if(document.querySelectorAll('.flip').length > 1){
+                
                 if(document.querySelectorAll('.flip')[0].innerHTML == document.querySelectorAll('.flip')[1].innerHTML){
 
                     document.querySelectorAll('.flip')[0].classList.add('match');
@@ -39,9 +34,6 @@ for ( var i = 0; i < legends.length; i++){
                     
                     document.querySelectorAll('.flip')[1].classList.remove('flip');
                 }
-                Array.from(document.querySelectorAll('.card')).forEach(card => {
-                    card.onclick = arguments.callee;
-                });
             }
             
         },500);
