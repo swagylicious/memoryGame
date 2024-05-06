@@ -81,4 +81,5 @@ h2{
     inset: 0;
     background-color: #816060;
     transition: .5s;
+    transform: rotate(0deg);
 }
