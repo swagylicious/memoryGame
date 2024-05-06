@@ -13,7 +13,7 @@ for ( var i = 0; i < legends.length; i++){
 
     card.onclick = () => {
         card.classList.add('flip');
-        setTimeout(() => {
+        setTimeout = () => {
             if(document.querySelectorAll('.flip').length > 1){
                 
                 if(document.querySelectorAll('.flip')[0].innerHTML == document.querySelectorAll('.flip')[1].innerHTML){
