@@ -12,7 +12,7 @@ for ( var i = 0; i < legends.length; i++){
     card.innerHTML = shullfeLegends[i];
 
     card.onclick = funciton(){
-        card.classList.add('flip');
+        this.classList.add('flip');
         setTimeout(funtion(){
             if(document.querySelectorAll('.flip').length > 1){
                 
