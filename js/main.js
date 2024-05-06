@@ -17,7 +17,7 @@ for ( var i = 0; i < legends.length; i++){
             if(document.querySelectorAll('.flip').length > 1){
                 if(document.querySelectorAll('.flip')[0].innerHTML == document.querySelectorAll('.flip')[1].innerHTML){
                     document.querySelectorAll('.flip').classList.add('match');
-                    document.querySelectorAll('.flip').
+                    document.querySelectorAll('.flip')[...]
                 }
             }
         }, 500);
