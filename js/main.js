@@ -12,6 +12,7 @@ for ( var i = 0; i < legends.length; i++){
     card.innerHTML = shullfeLegends[i];
 
     card.onclick = function(){
+        this.classList.add('flip');
         
     //     this.classList.add('flip');
     //     setTimeout(function(){
