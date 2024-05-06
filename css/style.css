@@ -5,10 +5,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* html{
+html{
     box-sizing: border-box;
     font-size: 62.5%;
-} */
+}
 
 body{
     display: flex;
