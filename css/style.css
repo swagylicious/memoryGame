@@ -79,6 +79,6 @@ h2{
     content: '';
     position: absolute;
     inset: 0;
-    background-color: #2d1515;
+    background-color: #924c4c;
     transition: .5s;
 }
