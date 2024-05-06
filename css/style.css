@@ -43,4 +43,6 @@ h2{
     border-radius: 5px;
     font-size: 1.6rem;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
 }
