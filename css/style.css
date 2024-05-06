@@ -88,6 +88,7 @@ h2{
     background-color: #816060;
     transition: .5s;
     transform: rotateY(0deg);
+    ba
 }
 
 .flip::after{
