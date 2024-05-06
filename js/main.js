@@ -13,6 +13,7 @@ for ( var i = 0; i < legends.length; i++){
 
     card.onclick = function(){
         this.classList.add('flip');
-        
+        set
+    }       
 }
 
