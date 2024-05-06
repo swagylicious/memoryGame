@@ -80,6 +80,5 @@ h2{
     position: absolute;
     inset: 0;
     background-color: #2d1515;
-    opacity: 0;
     transition: .5s;
 }
