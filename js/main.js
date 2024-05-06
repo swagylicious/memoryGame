@@ -15,11 +15,7 @@ for ( var i = 0; i < legends.length; i++){
         card.classList.add('flip');
         setTimeout(() => {
             if(document.querySelectorAll('.flip').length > 1){
-                const [firstCard, secondCard] = document.querySelectorAll('.flip');
-                if(firstCard.innerHTML !== secondCard.innerHTML){
-                    firstCard.classList.remove('flip');
-                    secondCard.classList.remove('flip');
-                }
+                
             }
         }, 500);
     };
