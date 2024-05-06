@@ -15,7 +15,7 @@ for ( var i = 0; i < legends.length; i++){
         this.classList.add('flip');
         setTimeout(function(){
             
-        }, 500);
+        },500);
     }       
 }
 
