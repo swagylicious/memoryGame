@@ -46,3 +46,8 @@ h2{
     text-transform: uppercase;
     letter-spacing: .3rem;
 }
+
+.reset:hover{
+    background-color: #2d1515;
+    color: #f1f1f1;
+}
